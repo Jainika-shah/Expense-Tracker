@@ -1,0 +1,26 @@
+@import '../../app/app.scss';
+
+.chart-container{
+    padding: 1rem;
+    border-radius: 12px;
+    background-color: $light-color;
+    text-align: center;
+    border: 2px solid $primary-color;
+    display: flex;
+    justify-content: space-around;
+    height: 10rem;
+    width: 50%;
+    margin :5rem auto 1rem;
+}
+.details{
+    display: flex;
+    justify-content: center ;
+}
+p{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    color: $primary-color;
+    margin-bottom: 4rem;
+}

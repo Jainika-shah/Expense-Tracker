@@ -1,0 +1,12 @@
+@import '../app/app.scss';
+
+.success-msg{
+    margin: auto;
+    text-align: center;
+    margin-top: 2rem;
+    color: $primary-color;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: bold;
+}

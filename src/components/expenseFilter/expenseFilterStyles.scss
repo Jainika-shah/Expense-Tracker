@@ -1,0 +1,33 @@
+@import '../app/app.scss';
+
+.dropdown{
+    display: flex;
+    justify-content: center;
+    margin: 0 0 0 1rem;
+}
+
+.dropbtn {
+    background-color: $primary-color;
+    color: $light-color;
+    padding: 1rem .5rem;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    height: 3rem;
+  }
+  
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content{
+    color: black;
+    padding: 12px 16px;
+    display: block;
+  }

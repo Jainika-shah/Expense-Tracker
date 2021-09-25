@@ -1,0 +1,27 @@
+@import '../../app/app.scss';
+
+.expense-item-date{
+    background-color: whitesmoke;
+    color: black;
+    min-width: 4rem;
+    padding: .2rem .6rem .2rem;
+    @include card;
+    p{
+        text-align: center;  
+        margin:0;
+        font-family: sans-serif;
+    }
+
+    .month,.day,.year{
+        margin-bottom : .2rem;
+    }
+    .month{
+        font-size: .8rem;
+
+        // font-weight: bold;
+    }
+    .day{
+        font-weight: bolder;
+        font-size: .9rem;
+    }
+}

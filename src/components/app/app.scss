@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap');
+
+
+// variables
+$primary-color : #297F87;
+$light-color : whitesmoke;
+
+// mixins
+@mixin card{
+    border-radius: 6px;
+}
+
+body{
+    background-color: $light-color;
+}
+
+
+.expenses-list{
+    margin-top: 2rem;
+}
