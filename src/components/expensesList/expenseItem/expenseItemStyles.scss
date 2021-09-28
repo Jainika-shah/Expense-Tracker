@@ -45,3 +45,16 @@
     }
 }
 
+@media screen and (max-width:500px) {
+    .expense-item{
+    &-column{
+        flex-direction: column;
+    }
+    &-title{
+        margin: .9rem;
+    }
+    &-amount{
+        width: 80%;
+    }
+}
+}

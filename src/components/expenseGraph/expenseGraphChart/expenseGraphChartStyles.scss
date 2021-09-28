@@ -9,7 +9,7 @@
     display: flex;
     justify-content: space-around;
     height: 10rem;
-    width: 50%;
+    max-width: 50%;
     margin :5rem auto 1rem;
 }
 .details{
@@ -23,4 +23,13 @@ p{
     font-weight: bold;
     color: $primary-color;
     margin-bottom: 4rem;
+}
+
+@media screen and (max-width:800px) {
+ 
+    .chart-container{
+        margin: 1rem 1rem;
+        max-width: 90%;
+    }
+
 }
